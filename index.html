@@ -3,41 +3,94 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width", initial-scale="1.0">
-        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="index.css">
+
         <title>My Personal Website</title>
         <script src=""></script>
     </head>
     <body>
-        <nav class="navBar">
-            <div class="max-Width">
-                <div class="siteLogo"><a href="#">Personal <span>Portfolio</span></a></div>
-                <ul class="menu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Education</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-                <button id="button">Welcome To My Personal Website</button>
+        <header>
+            <div class="user">
+                <img src="images/pic.jng" alt="">
+                <h3 class="name">Oduor Danstan</h3>
+                <p class="post">Petroleum Engineer</p>
             </div>
-        </nav>
+            <nav class="navBar">
+                <div class="max-Width">
+                    <div class="siteLogo"><a href="#">Personal <span>Portfolio</span></a></div>
+                    <ul class="menu">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <button id="button">Welcome To My Personal Website</button>
+                </div>
+            </nav>
+        </header>
+        <!--end of header section-->
+        <div id="menu" class="fas fa-bars"></div>
+        
 
         <!--START OF HOME SECTION-->
         <section class="home" id="home">
-            <div class="max-Width">
-                <div class="home-content">
-                    <div class="text-2">ODUOR DANSTAN</div>
-                    <div class="text-3"><span>Software Engineering Student</span></div>
-                </div>
-                <div class="menu-btn">
-                    <i class="fas fa-bars"></i>
-                </div>
-            </div>
+            <h3>HI THERE !</h3>
+            <h1>I'M <span>oduor danstan</span></h1>
+            <p>
+
+            </p>
+            <a href="#about"><button class="btn">about me<i class="fas fa-user"></i></button>/a>
         </section>
+        <!--HOME SECTION ENNDS-->
+        <!--about section starts-->
+        <section class="about" id="about">
+            <h1 class="heading"> <span>about</span></h1>
+            <div class="row">
+                <div class="info">
+                    <h3> <span>name : </span> oduor danstan </h3>
+                    <h3> <span>post : </span> petroleum engineer  <br> and software developer</h3>
+                    <h3> <span>language : </span> english </h3>
+                    <a href="#"><button class="btn">download CV <i class="fas fa-doowload"></i></button></a>
+                </div>
+                <div class="counter">
+                    <span>1+</span>
+                    <h3>years of experience</h3>
+                </div>
+                <div class="box">
+                    <span>3</span>
+                    <h3>projects</h3>
+                </div>
+            
+
+            </div>
+
+
+
+
+
+        </section>
+
+
+
+
+
+
+        <!--about section ends here-->
         
         <!--START OF EDUCATION SECTION-->
         <section class="education" id="education">
+            <h1 class="heading">my <span> education</span></h1>
+            <div class="box-container"></div>
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2022</span>
+                <h3>Bsc. Petroleum Engineering</h3>
+                <p>    </p>
+            </div>
+
             <div class="max-Width">
-                <h2 class="title">Education</h2>
+               
                 <div class="education-content">
                     <h2>BSc. Petroleum Engineering</h2>
                     <p><strong>Kenyatta University</strong><br> August 2016 - July 2022</p>
